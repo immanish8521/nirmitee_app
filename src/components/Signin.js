@@ -4,7 +4,7 @@ import '../styles/screen2.css';
 import { FaRegEnvelope, FaRegEye } from "react-icons/fa";
 
 
-const Screen2 = () => {
+const Signin = () => {
     return (
         <div className="main_container">
             <div className="left_container">
@@ -16,7 +16,7 @@ const Screen2 = () => {
                         <p>Don't have an account, yet?</p>
                     </div>
                     <div>
-                        <p><a href="#">Register</a></p>
+                        <p><a href="Register">Register</a></p>
                     </div>
                 </div>
                 <div className="right_main_container">
@@ -39,7 +39,7 @@ const Screen2 = () => {
                             <button className="signin_btn">sign in</button>
                         </div>
                         <div className="forgot_pass">
-                            <p><a href="#">forgot your password?</a><br /><span>Don't have an account?<a href="#">Register here</a></span></p>
+                            <p><a href="#">forgot your password?</a><br /><span>Don't have an account?<a href="Register">Register here</a></span></p>
                         </div>
                     </div>
                     <div className="check_box">
@@ -51,4 +51,4 @@ const Screen2 = () => {
     )
 }
 
-export default Screen2;
+export default Signin;

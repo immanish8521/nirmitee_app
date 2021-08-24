@@ -1,19 +1,24 @@
 import React from 'react';
-import Screen1 from './components/Screen1';
 import Nav from './components/Nav';
-import Screen2 from './components/Screen2';
-import Screen3 from './components/Screen3';
-import Screen4 from './components/Screen4';
+import Home from './components/Home';
+import ResetEmail from './components/ResetEmail';
+import Register from './components/Register';
+import Signin from './components/Signin';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const App = () => {
   return (
+    <Router>
     <div className="App">
       <Nav/>
-      <Screen1/>
-      <Screen2/>
-      <Screen3/>
-      <Screen4/>
+      <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/resetemail" component={ResetEmail} />
+          <Route path="/register" component={Register} />
+          <Route path="/signin" component={Signin} />
+      </Switch>
     </div>
+    </Router>
   )
 }
 

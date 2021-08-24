@@ -3,7 +3,7 @@ import img2 from '../Images/Human2.png';
 import '../styles/screen4.css';
 import { FaRegEye } from "react-icons/fa";
 
-const Section4 = () => {
+const Register = () => {
     return (
         <div className="main_container">
             <div className="left_container">
@@ -64,4 +64,4 @@ const Section4 = () => {
     )
 }
 
-export default Section4;
+export default Register;

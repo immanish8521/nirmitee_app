@@ -3,7 +3,7 @@ import img1 from '../Images/Human1.png';
 import '../styles/screen3.css';
 import { FaRegEnvelope } from "react-icons/fa";
 
-const Screen3 = () => {
+const ResetEmail = () => {
     return (
         <div className="main_container">
             <div className="left_container">
@@ -22,7 +22,7 @@ const Screen3 = () => {
                                 <button className="signin_btn">SEND RESET EMAIL</button>
                             </div>
                             <div className="forgot_pass">
-                                <p>Back to <a href="">Sign in</a><br />Don't have an account?<a href="">Register here</a></p>
+                                <p>Back to <a href="Signin">Sign in</a><br />Don't have an account?<a href="Register">Register here</a></p>
                             </div>
                         </div>
                     </div>
@@ -31,4 +31,4 @@ const Screen3 = () => {
     )
 }
 
-export default Screen3;
+export default ResetEmail;

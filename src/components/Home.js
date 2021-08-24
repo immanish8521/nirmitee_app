@@ -3,7 +3,7 @@ import '../styles/screen1.css';
 import { FaChevronDown, FaSearch } from "react-icons/fa";
 
 
-const Screen1 = () => {
+const Home = () => {
     return (
         <div className="parent_container">
             <div className="child_container">
@@ -31,4 +31,4 @@ const Screen1 = () => {
     )
 }
 
-export default Screen1;
+export default Home;

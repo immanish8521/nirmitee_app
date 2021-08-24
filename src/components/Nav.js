@@ -1,5 +1,6 @@
 import React from 'react';
-import '../styles/nav.css'
+import '../styles/nav.css';
+import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
     return (
@@ -11,17 +12,19 @@ const Nav = () => {
                 <div>
                     <nav>
                         <ul>
-                            <li>Features</li>
-                            <li>Pricing</li>
-                            <li>Support</li>
-                            {/* <li className="register_btn">REGISTER</li>
-                            <li className="sign_in_btn">SIGN IN</li> */}
+                            <NavLink exact activeClassName="active_nav" className="link" to="/">
+                                Home
+                            </NavLink>
+                            <NavLink exact activeClassName="active_nav" className="link" to="/resetemail">
+                                ResetEmail
+                            </NavLink>
+                           
                             <div className="sign_in_btn">
                                 <div>
-                                    <li className="register_btn">REGISTER</li>
+                                    <NavLink exact activeClassName="active_nav" className="register_btn" to="/register">REGISTER</NavLink>
                                 </div>
                                 <div className="side_sign_in">
-                                    <button className="sign_btn">SIGN IN</button>
+                                    <NavLink exact activeClassName="active_nav" className="sign_btn" to="/signin">SIGN IN</NavLink>
                                 </div>
                             </div>
                         </ul>
