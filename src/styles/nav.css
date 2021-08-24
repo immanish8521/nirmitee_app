@@ -13,6 +13,19 @@
 .nav_bar h3 span{
     color: #4A148C;
 }
+.user_info{
+    margin-right: -10rem;
+}
+.user_info_name{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #008FE3;
+    text-align: center;
+}
+.user_info p{
+    font-size: 1.5rem;
+    color: #4A148C;
+}
 .link {
     text-decoration: none;
     display: inline;
@@ -65,6 +78,11 @@ nav ul {
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
+    transition: .5s ease all;
+}
+.sign_btn:hover{
+    background: #008FE3;
+    color: white;
 }
 .side_sign_in{
     margin-left: 1.5rem;

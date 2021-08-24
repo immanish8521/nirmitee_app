@@ -1,6 +1,6 @@
 import React from 'react';
 import img2 from '../Images/Human2.png';
-import '../styles/screen4.css';
+import '../styles/register.css';
 import { FaRegEye } from "react-icons/fa";
 
 const Register = () => {

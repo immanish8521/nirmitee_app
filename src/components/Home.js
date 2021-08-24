@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/screen1.css';
+import '../styles/home.css';
 import { FaChevronDown, FaSearch } from "react-icons/fa";
 
 

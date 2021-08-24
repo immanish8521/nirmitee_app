@@ -1,6 +1,6 @@
 import React from 'react';
 import img1 from '../Images/Human1.png';
-import '../styles/screen3.css';
+import '../styles/resetemail.css';
 import { FaRegEnvelope } from "react-icons/fa";
 
 const ResetEmail = () => {
@@ -11,8 +11,8 @@ const ResetEmail = () => {
             </div>
             <div className="parent_div">
                     <div className="child_div">
-                        <p>ENTER YOUR EMAIL ADDRESS BELOW TO RETRIEVE YOUR ACCOUNT</p>
-                        <h1>Forgot your password? <br />We'll help you!</h1>
+                            <p>ENTER YOUR EMAIL ADDRESS BELOW TO RETRIEVE YOUR ACCOUNT</p>
+                            <h1>Forgot your password? <br />We'll help you!</h1>
                         <div className="email_container">
                             <input className="input_email_container" type="email" placeholder="Email Address" />
                             <FaRegEnvelope/>
