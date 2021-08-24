@@ -1,0 +1,117 @@
+h1,p,h2,h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+.main_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(#FCFDFF, #E1EFF8);
+}
+.left_container{
+    width: 35vw;
+    height: 100vh;
+}
+.img{
+    width: 35vw;
+    height: 100vh;
+}
+.right_container{
+    width: 65vw;
+    height: 100vh;
+}
+.right_corner_part{
+    display: flex;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.right_corner_part a{
+    text-decoration: none;
+    padding: .6rem;
+    background: #008FE3;
+    color: white;
+    border-radius: 25px;
+    font-size: .9rem;
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+.right_main_container{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 15rem;
+    margin-top: -2rem;
+}
+.check_box{
+    display: flex;
+}
+.form_container p{
+    text-transform: uppercase;
+    color: #008FE3;
+}
+.form_container h1{
+    color: #008FE3;
+}
+.email_container{
+    width: 25rem;
+    height: 2.5rem;
+    border: 2px solid #dadada;
+    padding-left: 1rem;
+    border-radius: 4px;
+    outline: none;
+    color: gray;
+    background: white;
+}
+.input_email_container{
+    width: 23rem;
+    height: 2.4rem;
+    border: none;
+    outline: none;
+}
+.pass_container{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 25rem;
+    height: 2.5rem;
+    border: 2px solid #dadada;
+    padding-left: 1rem;
+    border-radius: 4px;
+    outline: none;
+    color: gray;
+    background: white;
+}
+.input_pass_container{
+    width: 23rem;
+    height: 2.4rem;
+    outline: none;
+    border: none;
+}
+.btn_flex{
+    display: flex;
+}
+.signin_btn{
+    width: 14rem;
+    height: 2.5rem;
+    background: #008FE3;
+    color: white;
+    border: 1px solid #008FE3;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 1rem;
+    
+}
+.forgot_pass{
+    margin-top: -1rem;
+}
+.check {
+    margin-top: .4rem;
+}
+.forgot_pass p a{
+    text-decoration: none;
+    color: #008FE3;
+    font-size: .9rem;
+    
+}

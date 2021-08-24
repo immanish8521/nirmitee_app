@@ -1,0 +1,85 @@
+.parent_container{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(#FCFDFF, #E1EFF8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.child_container h1{
+    text-align: center;
+    color: #008FE3;
+    font-family: 'Ubuntu', sans-serif;
+}
+.child_container .child_p{
+    text-align: center;
+    color: #487ABE;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.search_container{
+    margin-top: 5rem;
+    width: 98%;
+    background: white;
+    padding-left: 1rem;
+    border-radius: 4px 0 0 4px;
+}
+.search_icon{
+    color: gray;
+    padding-right: 1rem;
+}
+.search_input{
+    width: 30rem;
+    height: 3rem;
+    border: none;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+.option_container{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    color: #008FE3;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+.search_btn{
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    background-color: #4A148C;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+.down_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.down_container_btn{
+    background-color: #008FE3;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 3rem;
+    height: 1.5rem;
+}
+.down_container p{
+    color: #4A148C;
+    font-size: .9rem;
+    margin-left: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.down_container p span{
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+.downChevron{
+    margin-top: 2rem;
+    color: #008FE3 ;
+}
